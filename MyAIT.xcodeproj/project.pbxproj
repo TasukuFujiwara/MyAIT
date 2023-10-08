@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5BD6CF542AD28042000699EF /* MyAITApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6CF532AD28042000699EF /* MyAITApp.swift */; };
-		5BD6CF562AD28042000699EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6CF552AD28042000699EF /* ContentView.swift */; };
+		5BD6CF562AD28042000699EF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6CF552AD28042000699EF /* MainView.swift */; };
 		5BD6CF582AD28043000699EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6CF572AD28043000699EF /* Assets.xcassets */; };
 		5BD6CF5B2AD28043000699EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6CF5A2AD28043000699EF /* Preview Assets.xcassets */; };
+		5BD6CF622AD28715000699EF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6CF612AD28715000699EF /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BD6CF502AD28042000699EF /* MyAIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD6CF532AD28042000699EF /* MyAITApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAITApp.swift; sourceTree = "<group>"; };
-		5BD6CF552AD28042000699EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BD6CF552AD28042000699EF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5BD6CF572AD28043000699EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD6CF5A2AD28043000699EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BD6CF612AD28715000699EF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				5BD6CF532AD28042000699EF /* MyAITApp.swift */,
-				5BD6CF552AD28042000699EF /* ContentView.swift */,
+				5BD6CF552AD28042000699EF /* MainView.swift */,
+				5BD6CF612AD28715000699EF /* ViewModel.swift */,
 				5BD6CF572AD28043000699EF /* Assets.xcassets */,
 				5BD6CF592AD28043000699EF /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD6CF562AD28042000699EF /* ContentView.swift in Sources */,
+				5BD6CF562AD28042000699EF /* MainView.swift in Sources */,
+				5BD6CF622AD28715000699EF /* ViewModel.swift in Sources */,
 				5BD6CF542AD28042000699EF /* MyAITApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
