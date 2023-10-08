@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class ViewModel: ObservableObject {
+    static var inputText: String = ""
+    
+    func onSendButtonClicked(inputtedText: String) {
+        Self.inputText = inputtedText
+        print(Self.inputText)
+    }
+}
